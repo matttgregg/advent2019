@@ -3,7 +3,7 @@ use std::time::SystemTime;
 use advent2019::intcode::{Computer, IntState};
 
 pub fn run() {
-    println!("Day2!");
+    println!("Day5!");
     let start = SystemTime::now();
     let cbytes = include_bytes!("../data/data5.txt");
     let contents = String::from_utf8_lossy(cbytes);

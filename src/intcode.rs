@@ -1,6 +1,6 @@
 use std::collections::VecDeque;
 
-#[derive(PartialEq, Eq)]
+#[derive(Debug, PartialEq, Eq)]
 pub enum IntState {
     Ready,
     Waiting,
