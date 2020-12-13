@@ -34,8 +34,8 @@ fn decode(raw_image: &str, wx: usize, wy: usize) {
             println!();
         }
         match c {
-            '0' => print!(" "),
-            _ => print!("0"),
+            '0' => print!("\u{2588}"),
+            _ => print!("\u{2591}"),
         }
     }
     println!();
